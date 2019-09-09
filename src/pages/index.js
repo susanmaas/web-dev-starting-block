@@ -5,8 +5,6 @@ import Layout from "../components/layout"
 export default ({ data }) => {
     return (
         <Layout>
-            <h1>Hey! Glad you stopped by.</h1>
-            <h2>Posts</h2>
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id}>
                     <Link to={node.fields.slug}>

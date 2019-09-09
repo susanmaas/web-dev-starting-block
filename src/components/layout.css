@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.navbarContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 2rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.blogContainer {
+    margin: 3rem auto;
+    max-width: 600px;
+}

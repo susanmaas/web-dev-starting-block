@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Susan's Web Dev Blog`
+    title: `Web Dev Starting Block`
   },
   plugins: [
     {
