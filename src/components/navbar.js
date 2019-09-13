@@ -1,10 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import navbarStyles from "./navbar.module.css"
+
+const ListLink = props => (
+    <li>
+        <Link to={props.to}>{props.children}</Link>
+    </li>
+)
 
 export default () => (
-    <div className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="about">About</Link>
-        <Link to="contact">Contact</Link>
-    </div>
+    <ul className={navbarStyles.navbar}>
+        <ListLink to="/">Home</ListLink>
+        <ListLink to="about">About</ListLink>
+        <ListLink to="contact">Contact</ListLink>
+    </ul>
 )

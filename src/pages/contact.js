@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 export default () => (
     <Layout>
-        <h1>Hello from the contact page!</h1>
-        <p>This is where the contact form will go once I've made it.</p>
+        <h1>Coming soon!</h1>
+        <p>I'm still working on this page, but I'll get it up and running as soon as possible.</p>
     </Layout>
 )

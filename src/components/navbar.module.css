@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 2rem;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+.navbar a:hover {
+    color: var(--blueLinks);
+}
+
+@media only screen and (max-width: 545px) {
+    .navbar li {
+        margin-left: 0.5rem;
+    }
+}

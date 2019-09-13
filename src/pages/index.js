@@ -8,8 +8,11 @@ export default ({ data }) => {
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id}>
                     <Link to={node.fields.slug}>
-                        <h3>{node.frontmatter.title}{" "} - {node.frontmatter.date}</h3>
+                        <div className="postContainer">
+                        <h3>{node.frontmatter.title}{" "}</h3>
+                        <h4 className="postDate">{node.frontmatter.date}</h4>
                         <p>{node.excerpt}</p>
+                        </div>
                     </Link>
                 </div>
             ))}

@@ -6,7 +6,8 @@ import Logo from "./logo"
 
 export default ({children}) => {
 return (
-    <div>
+    <div className="stickyFooterContainer">
+      <div className="stickyFooterContent">
         <div className="navbarContainer">
           <Navbar />
           <Logo />
@@ -14,6 +15,7 @@ return (
         <div className="blogContainer">
           {children}
         </div>
+      </div>
         <Footer />
     </div>
 )

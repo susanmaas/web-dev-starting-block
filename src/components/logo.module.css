@@ -1,7 +1,10 @@
 .siteTitle {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
-    color: rgb(218,165,32);
+    color: rgb(134, 100, 12);
+    /* Display flex and flex direction below are there because of media query changing order for logo for browser windows less than 545px wide. Can remove if this changes. */
+    display: flex;
+    flex-direction: row;
 }
 
 .spanSiteTitle1 {
@@ -21,5 +24,48 @@
 .spanSiteTitle3 {
     font-family: 'Saira Extra Condensed', sans-serif;
     color: #323d80;
+    /* margin-left below is there because of media query changing order for logo for browser windows less than 545px wide. Can remove if this changes. */
+    margin-left: 0.4rem;
 }
 
+/* Responsive logo media queryies */
+@media only screen and (max-width: 690px) {
+    .siteTitle {
+        font-size: 5vw;
+    }
+    .spanSiteTitle1 {
+        font-size: 3.3vw;
+    }
+    .spanSiteTitle2 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .siteTitle {
+        font-size: 1.5rem;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .spanSiteTitle1 {
+        font-size: 1rem;
+        position: relative;
+        top: 2px;
+        left: 0%;
+    }
+    .spanSiteTitle2 {
+        font-size: 1rem;
+        position: relative;
+        top: 8px;
+        left: -1%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .spanSiteTitle3 {
+        line-height: 1;
+    }
+}

@@ -2,8 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
 
+:root {
+    --veryLightGrey:  rgb(233, 231, 231);
+    --blueLinks:#0d38a3;
+}
+
 body {
     font-family: 'Red Hat Display', sans-serif;
+}
+
+/* .stickyFooterContainer and .stickyFooterContent are there to make the footer stick to the bottom of the page. If this changes, both of these can be removed. */
+
+.stickyFooterContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.stickyFooterContent {
+    flex-grow: 1;
 }
 
 a {
@@ -11,9 +28,18 @@ a {
     color: black;
 }
 
+.blueLinks {
+    color: var(--blueLinks);
+    text-decoration: underline;
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: 900;
+}
+
+a:hover {
+    color: var(--blueLinks);
 }
 
 .navbarContainer {
@@ -26,5 +52,22 @@ h3 {
 
 .blogContainer {
     margin: 3rem auto;
-    max-width: 600px;
+    max-width: 650px;
+}
+
+.postContainer {
+    margin: 2rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+    border: 1px solid var(--veryLightGrey);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--veryLightGrey);
+}
+
+.postDate {
+    color: gray;
+}
+
+.postContainer:hover {
+    box-shadow: 4px 4px 4px var(--blueLinks);
 }
