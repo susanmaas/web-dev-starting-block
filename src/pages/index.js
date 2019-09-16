@@ -9,7 +9,7 @@ export default ({ data }) => {
                 <div key={node.id}>
                     <Link to={node.fields.slug}>
                         <div className="postContainer">
-                        <h3>{node.frontmatter.title}{" "}</h3>
+                        <h3 className="postTitle">{node.frontmatter.title}{" "}</h3>
                         <h4 className="postDate">{node.frontmatter.date}</h4>
                         <p>{node.excerpt}</p>
                         </div>

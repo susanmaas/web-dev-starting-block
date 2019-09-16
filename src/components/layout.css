@@ -9,6 +9,8 @@
 
 body {
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
 }
 
 /* .stickyFooterContainer and .stickyFooterContent are there to make the footer stick to the bottom of the page. If this changes, both of these can be removed. */
@@ -64,7 +66,13 @@ a:hover {
     box-shadow: 2px 2px 2px var(--veryLightGrey);
 }
 
+/* All of the styling in this stylesheet for the post card should be re-factored -- component? Below, in order for there to be no space in the card between the post title and the date, I had to put margin 0 for both the title's bottom margin and the date's top margin. To re-visit. */
+.postTitle {
+    margin-bottom: 0;
+}
+
 .postDate {
+    margin-top: 0;
     color: gray;
 }
 
