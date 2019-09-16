@@ -29,7 +29,7 @@
 }
 
 /* Responsive logo media queryies */
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 705px) {
     .siteTitle {
         font-size: 5vw;
     }
