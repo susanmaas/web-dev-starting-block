@@ -5,7 +5,7 @@ date: "2019-09-16"
 As self-taught web developers, we come from all kinds of backgrounds and experience levels. We have to do our own trailblazing, so sometimes we get lost. Here are 3 things I've found out so far my own rocky journey:
 
 ## 1. No course is enough ##
-Don't get me wrong - I love courses, and lots of them are truly awesome. But I think at the beggining I thought I could sit down, go through a course, and be a confident (if inexperienced) web developer at the end.
+Don't get me wrong - I love courses, and lots of them are truly awesome. But I think at the beginning I thought I could sit down, go through a course, and be a confident (if inexperienced) web developer at the end.
 
 But it doesn't work that way.
 
@@ -31,7 +31,7 @@ Sometimes picking up a library or a framework can help get you out of this rut. 
 
 1. It gives you a sense of accomplishment, which is good for motivation.
 
-2. It can help you see the bigger picture of how the parts of a project fit together. Sometimes this can help clarify point that were giving you trouble. You can then go back and review those points, making your foundation stronger.
+2. It can help you see the bigger picture of how the parts of a project fit together. Sometimes this can help clarify points that were giving you trouble. You can then go back and review those points, making your foundation stronger.
 
 I’m not saying don’t learn the basics. I’m just saying, do what works for you as a learner. Use libraries or a frameworks if you think they will help you, but don’t depend on them. Keep looking under the hood, and fill in the gaps in your knowledge. There’s more than one way to build a strong foundation.
 ## 3. Podcasts are great ##
