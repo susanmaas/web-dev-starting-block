@@ -1,6 +1,6 @@
 ---
 title: "3 Things I've Learned About Becoming a Self-Taught Web Developer"
-date: "2019-09-12"
+date: "2019-09-16"
 ---
 As self-taught web developers, we come from all kinds of backgrounds and experience levels. We have to do our own trailblazing, so sometimes we get lost. Here are 3 things I've found out so far my own rocky journey:
 
