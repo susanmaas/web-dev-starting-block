@@ -9,9 +9,11 @@ const ListLink = props => (
 )
 
 export default () => (
-    <ul className={navbarStyles.navbar}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="about">About</ListLink>
-        <ListLink to="contact">Contact</ListLink>
-    </ul>
+    <nav>
+        <ul className={navbarStyles.navbar}>
+            <ListLink to="/">Home</ListLink>
+            <ListLink to="about">About</ListLink>
+            <ListLink to="contact">Contact</ListLink>
+        </ul>
+    </nav>
 )
