@@ -16,8 +16,14 @@
     color: var(--blueLinks);
 }
 
-@media only screen and (max-width: 545px) {
+@media (max-width: 545px) {
     .navbar li {
         margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        padding: 0;
     }
 }

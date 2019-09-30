@@ -79,3 +79,9 @@ a:hover {
 .postContainer:hover {
     box-shadow: 4px 4px 4px var(--blueLinks);
 }
+
+@media (max-width: 320px) {
+    .navbarContainer {
+        flex-direction: column-reverse;
+    }
+}

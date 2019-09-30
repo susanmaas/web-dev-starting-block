@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 export default () => (
     <Link to="/">
-        <h1 class={logoStyles.siteTitle}>
+        <h1 className={logoStyles.siteTitle}>
         {/* Div only for styling purposes for logo when browser window under 545px wide */}
         <div>
             <span className={logoStyles.spanSiteTitle1}>Web</span><span className={logoStyles.spanSiteTitle2}>Dev</span>
