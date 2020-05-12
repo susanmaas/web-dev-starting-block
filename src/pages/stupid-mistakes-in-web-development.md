@@ -18,15 +18,15 @@ By then it was the middle of the night, so I gave up and went to bed, discourage
 
 A couple days later, I opened it up again. I looked at the error messages again. 
 
-I typed pwd in the command line and found out that **I WAS IN THE WRONG FILE THE WHOLE TIME!**
+I typed ls in the command line to see what files were in my current directory and found out that **I WAS IN THE WRONG DIRECTORY THE WHOLE TIME!**
 
-My code was in a file that had a similar name to its parent file, so I didn't realize I was in actually in the parent file.
+My code was in a directory that had a similar name to its parent directory, so I didn't realize I was in actually in the parent directory.
 
-So, here's my take from this:
+So, here's what I take from this:
 
-1. Maybe I should re-think my file names
+1. Maybe I should re-think my directory names
 
-2. I'm a total idiot.
+2. I'm a total idiot
 
 But, I'm sharing my idiot moment with you because I think it's easy for lots of us to be idiots when we're doing web development, especially as beginners: turns out your code wasn't working because of a typo, or because you forgot to put a link your JavaScript file, or your styles aren't working because the href you put for your style sheet doesn't match the actual name of the style sheet.
 

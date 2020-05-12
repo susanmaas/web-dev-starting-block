@@ -12,6 +12,11 @@
     text-decoration: underline;
 }
 
+/* here */
+.navbar a {
+    color: var(--blueLinks);
+}
+
 .navbar a:hover {
     color: var(--blueLinks);
 }

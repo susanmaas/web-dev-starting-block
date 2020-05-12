@@ -12,7 +12,7 @@ I took another look at Chromebooks and was super excited to find out that times
 
 I settled on a budget Chromebook: a Packard Bell Chromebook 314, which I got for less than 300 euros. It has 4GB of RAM, 32GB of storage, and an Intel Celeron N4000 processor.
 
-Getting Linux set up was incredibly easy. In a few clicks it was done. I recommend you watch [this video by Google] (https://www.youtube.com/watch?v=pRlh8LX4kQI&t=874s) on how Linux works on a Chromebook. It's about a half an hour long, but it gives a great introduction.
+Getting Linux set up was incredibly easy. In a few clicks it was done. I recommend you watch [this video by Google](https://www.youtube.com/watch?v=pRlh8LX4kQI&t) on how Linux works on a Chromebook. It's about a half an hour long, but it gives a great introduction.
 
 The next step was to see if I could actually do anything:
 

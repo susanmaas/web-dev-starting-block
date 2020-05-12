@@ -27,7 +27,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 .blueLinks {
@@ -41,7 +41,7 @@ h3 {
 }
 
 a:hover {
-    color: var(--blueLinks);
+    color: blue;
 }
 
 .navbarContainer {
@@ -64,6 +64,11 @@ a:hover {
     border: 1px solid var(--veryLightGrey);
     border-radius: 5px;
     box-shadow: 2px 2px 2px var(--veryLightGrey);
+    color: black;
+}
+
+.postContainer a:hover {
+    color: var(--blueLinks);
 }
 
 /* All of the styling in this stylesheet for the post card should be re-factored -- component? Below, in order for there to be no space in the card between the post title and the date, I had to put margin 0 for both the title's bottom margin and the date's top margin. To re-visit. */
