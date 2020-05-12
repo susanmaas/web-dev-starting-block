@@ -10,7 +10,7 @@ Here's my latest "I'm such an idiot!" moment:
 
 A few days ago, I picked up this blog again. I'd started it several months ago, but then had to put it aside because of other commitments. 
 
-The blog still worked fine live, but when I tried to open a local development server, I got an error message. I also couldn't get git to work. What was happening? Why wasn't it working? Had something changed since I'd last worked on it? Did I need to update something? What could cause this?
+The blog still worked fine live, but when I tried to open a local development server, I got an error message. I also couldn't get Git to work. What was happening? Why wasn't it working? Had something changed since I'd last worked on it? Did I need to update something? What could cause this?
 
 I spent at least an hour scouring the internet for information, trying to find someone who'd had the same problem, looking for possible reasons, feeling frustrated.
 
